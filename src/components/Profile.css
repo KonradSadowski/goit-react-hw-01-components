@@ -1,0 +1,38 @@
+.profile {
+  margin: 0px auto;
+  border: 1px solid black;
+  width: fit-content;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 5px;
+}
+.avatar {
+  padding: 15px;
+  height: 100px;
+}
+
+.name {
+  font-weight: 900;
+}
+
+.tag,
+.location {
+  color: grey;
+}
+
+.stats {
+  list-style: none;
+  display: flex;
+  gap: 5px;
+  background-color: beige;
+}
+
+.stats li {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
