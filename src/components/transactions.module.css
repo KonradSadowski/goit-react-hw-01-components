@@ -1,0 +1,22 @@
+.TransactionHistory {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px auto;
+  width: fit-content;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.header {
+  background-color: aqua;
+}
+
+.headerItem,
+.bodyItem {
+  display: inline-flex;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  width: 100px;
+}

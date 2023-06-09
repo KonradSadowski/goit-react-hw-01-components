@@ -1,0 +1,32 @@
+.FriendList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px auto;
+  width: fit-content;
+  gap: 10px;
+}
+
+.FriendListItem {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  align-items: center;
+  background-color: antiquewhite;
+  padding: 10px;
+  gap: 5px;
+}
+
+.online {
+  background-color: green;
+  border-radius: 100%;
+  width: 5px;
+  height: 5px;
+}
+
+.offline {
+  background-color: red;
+  border-radius: 100%;
+  width: 5px;
+  height: 5px;
+}
